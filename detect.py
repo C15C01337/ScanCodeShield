@@ -51,7 +51,7 @@ def analysis(path, plain):
         content = clean_source_and_format(content)
 
         # Hardcoded credentials (work as an exception, it's not function based)
-        credz = ['pass', 'secret', 'token', 'pwd']
+        credz = ['pass', 'secret', 'token', 'pwd', 'api-key']
         for credential in credz:
             content_pure = content.replace(' ', '')
 
