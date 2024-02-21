@@ -46,3 +46,4 @@ Code              mysql_query($query)
 Declaration       Line n°6 : $query = "SELECT * FROM table WHERE Id = '"
 ```
 
+.
